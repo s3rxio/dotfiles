@@ -11,9 +11,10 @@ git clone https://github.com/s3rxio/dotfiles.git
 cd dotfiles
 ```
 There are 3 sh files in my repository. `install_system.sh` should be run when installing the system in `arch-chroot` or from superuser(root). The others can be run whenever you want :)
-```
+```sh
 sudo su
 ./install_system.sh
+exit
 ./install_apps.sh
 ./install_langs.sh
 ```
