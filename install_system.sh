@@ -1,4 +1,4 @@
-pacman -Syu plasma konsole dolphin spectacle ark dragon pulseaudio pulseaudio-bluetooth plasma-pa kwallet-pam kwalletmanager spectacle linux-headers nvidia-dkms
+pacman -Syu plasma konsole dolphin spectacle ark dragon pulseaudio pulseaudio-bluetooth plasma-pa kwallet-pam kwalletmanager spectacle
 
 pacman -S sddm sddm-kcm
 mkdir /etc/sddm.conf.d/
@@ -7,4 +7,8 @@ User=s3rxio
 Session=plasma" > /etc/sddm.conf.d/autologin.conf
 systemctl enable sddm
 
-pacman -S noto-fonts noto-fonts-emoji noto-fonts-extra awesome-terminal-fonts powerline powerline-fonts 
+pacman -S linux-headers nvidia-dkms
+sed -e "s/kcm//g" -i /etc/mkinitcpio.conf
+mkinitcpio -P
+
+pacman -S noto-fonts noto-fonts-emoji noto-fonts-extra awesome-terminal-fonts powerline powerline-fonts
