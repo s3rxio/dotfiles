@@ -7,8 +7,6 @@ User=s3rxio
 Session=plasma" > /etc/sddm.conf.d/autologin.conf
 systemctl enable sddm
 
-pacman -S linux-headers nvidia-dkms
-sed -e "s/kcm//g" -i /etc/mkinitcpio.conf
+pacman -S linux-headers nvidia
+sed -e "s/kms //g" -i /etc/mkinitcpio.conf
 mkinitcpio -P
-
-pacman -S noto-fonts noto-fonts-emoji noto-fonts-extra awesome-terminal-fonts powerline powerline-fonts

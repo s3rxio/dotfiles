@@ -1,8 +1,10 @@
+sudo pacman -S noto-fonts noto-fonts-emoji noto-fonts-extra awesome-terminal-fonts powerline powerline-fonts
+
 sudo pacman -S obs-studio firefox discord telegram-desktop latte-dock
 
-mkdir -p ~/.config/autostart
-cp /usr/share/applications/org.kde.latte-dock.desktop ~/
-mv ~/org.kde.latte-dock.desktop ~/.config/autostart
+sudo mkdir -p ~/.config/autostart
+sudo cp /usr/share/applications/org.kde.latte-dock.desktop ~/
+sudo mv ~/org.kde.latte-dock.desktop ~/.config/autostart
 
 sudo git clone https://aur.archlinux.org/yay-git.git
 sudo chown -R $USER:$USER yay-git
