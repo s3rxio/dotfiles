@@ -1,5 +1,3 @@
-sudo pacman -S noto-fonts noto-fonts-emoji noto-fonts-extra awesome-terminal-fonts powerline powerline-fonts
-
 sudo pacman -S obs-studio firefox discord telegram-desktop latte-dock
 
 sudo mkdir -p ~/.config/autostart
