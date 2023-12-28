@@ -11,7 +11,7 @@ makepkg -si
 cd ..
 sudo rm -rf yay-git
 
-yay -S visual-studio-code-bin git-flow
+yay -S visual-studio-code-bin git-flow authy
 
 sudo pacman -S zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"

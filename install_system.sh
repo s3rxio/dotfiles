@@ -1,4 +1,4 @@
-pacman -Syu plasma konsole dolphin spectacle ark dragon pulseaudio pulseaudio-bluetooth plasma-pa kwallet-pam kwalletmanager spectacle
+pacman -Syu plasma konsole dolphin spectacle ark vlc pulseaudio pulseaudio-bluetooth plasma-pa kwallet-pam kwalletmanager spectacle
 
 pacman -S sddm sddm-kcm
 mkdir /etc/sddm.conf.d/
