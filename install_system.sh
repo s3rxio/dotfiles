@@ -1,4 +1,6 @@
-pacman -Syu plasma konsole dolphin spectacle ark vlc pulseaudio pulseaudio-bluetooth plasma-pa kwallet-pam kwalletmanager spectacle
+pacman -Syu vim git plasma konsole dolphin spectacle ark vlc bluez bluez-utils pulseaudio pulseaudio-alsa pulseaudio-bluetooth plasma-pa kwallet-pam kwalletmanager spectacle
+
+git config --global core.editor "vim"
 
 pacman -S sddm sddm-kcm
 mkdir /etc/sddm.conf.d/
