@@ -1,6 +1,6 @@
 # S3rxio Dotfiles
 
-## Why shouldn't you use my dotfiles?
+## Why you should NOT use my dotfiles
  - At the moment, my dotfiles is not tested.
  - My dotfiles - my dotfiles. They are customized for me. You may not like them and I won’t care. But you can try them following the guide
 
