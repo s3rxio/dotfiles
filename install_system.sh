@@ -1,4 +1,4 @@
-sudo pacman -Syu vim git htop plasma konsole dolphin spectacle ark vlc bluez bluez-utils pulseaudio pulseaudio-alsa pulseaudio-bluetooth plasma-pa kwallet-pam kwalletmanager spectacle
+sudo pacman -Syu vim git htop plasma konsole dolphin spectacle ark vlc bluez bluez-utils pulseaudio pulseaudio-alsa pulseaudio-bluetooth plasma-pa kwallet-pam kwalletmanager networkmanager-openvpn
 
 git config --global core.editor "vim"
 
