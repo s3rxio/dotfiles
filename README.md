@@ -10,15 +10,14 @@ First you need to copy the repository
 git clone https://github.com/s3rxio/dotfiles.git
 cd dotfiles
 ```
-There are 3 sh files in my repository. `install_system.sh` should be run when installing the system in `arch-chroot` or from superuser(root). The others can be run whenever you want :)
+There are 4 sh scripts in my repository. You have to execute each of scripts
 ```sh
-sudo su
 ./install_system.sh
-exit
 ./install_apps.sh
 ./install_langs.sh
+./install_games.sh # if u want
 ```
 After installation, you need to copy `.config` to your home folder
 ```sh
-cp -fr .config ~/
+cp -fr ./.config/* ~/.config
 ```
