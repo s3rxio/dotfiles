@@ -9,6 +9,9 @@ Rows=1
 [Tiling]
 padding=4
 
+[Tiling][08bd8cc8-e268-59f1-8435-73658abe4648]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][0a62c7ad-6db5-5d44-a91b-7d14140f5494]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
@@ -17,3 +20,6 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 
 [Tiling][76765606-e388-5268-934a-8e111d7141cf]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Xwayland]
+Scale=1
