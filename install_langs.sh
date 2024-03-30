@@ -6,3 +6,5 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 
 nvm install --lts
 nvm use --lts
+
+npm i -g yarn pnpm typescript ts-node better-commits @nestjs/cli @angular/cli serve 
