@@ -1,5 +1,5 @@
 sudo cp ./etc/pacman.conf /etc/
-sudo pacman -Syu vim git htop plasma konsole dolphin spectacle ark gwenview vlc bluez bluez-utils pulseaudio pulseaudio-alsa pulseaudio-bluetooth plasma-pa kwallet-pam kwalletmanager networkmanager openvpn libxcb os-prober
+sudo pacman -Syu vim git htop plasma konsole dolphin spectacle ark gwenview vlc bluez bluez-utils pulseaudio pulseaudio-alsa pulseaudio-bluetooth plasma-pa kwallet-pam kwalletmanager networkmanager openvpn networkmanager-openvpn libxcb os-prober
 
 sudo systemctl enable NetworkManager
 

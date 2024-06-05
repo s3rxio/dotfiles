@@ -7,7 +7,7 @@ makepkg -si
 cd ..
 sudo rm -rf yay-git
 
-yay -S visual-studio-code-bin postman-bin git-flow authy
+yay -S visual-studio-code-bin postman-bin git-flow authy onlyoffice-bin
 
 sudo pacman -S zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
