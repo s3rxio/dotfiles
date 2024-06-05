@@ -20,8 +20,8 @@ plugin=org.kde.plasma.kickoff
 
 [Containments][31][Applets][32][Configuration]
 PreloadWeight=100
-popupHeight=510
-popupWidth=647
+popupHeight=513
+popupWidth=655
 
 [Containments][31][Applets][32][Configuration][ConfigDialog]
 DialogHeight=540
@@ -63,7 +63,7 @@ plugin=org.kde.plasma.systemmonitor.cpucore
 
 [Containments][31][Applets][64][Configuration]
 CurrentPreset=org.kde.plasma.systemmonitor
-PreloadWeight=75
+PreloadWeight=100
 popupHeight=468
 popupWidth=228
 
@@ -139,8 +139,8 @@ plugin=org.kde.plasma.digitalclock
 
 [Containments][31][Applets][73][Configuration]
 PreloadWeight=100
-popupHeight=450
-popupWidth=810
+popupHeight=453
+popupWidth=419
 
 [Containments][31][Applets][73][Configuration][Appearance]
 dateFormat=isoDate
@@ -164,8 +164,8 @@ immutability=1
 lastScreen=0
 location=3
 plugin=org.kde.plasma.private.systemtray
-popupHeight=432
-popupWidth=432
+popupHeight=435
+popupWidth=436
 wallpaperplugin=org.kde.image
 
 [Containments][37][Applets][38]
@@ -180,7 +180,7 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][37][Applets][39][Configuration]
-PreloadWeight=55
+PreloadWeight=100
 
 [Containments][37][Applets][40]
 immutability=1
@@ -189,6 +189,9 @@ plugin=org.kde.plasma.manage-inputmethod
 [Containments][37][Applets][41]
 immutability=1
 plugin=org.kde.plasma.notifications
+
+[Containments][37][Applets][41][Configuration]
+PreloadWeight=95
 
 [Containments][37][Applets][42]
 immutability=1
@@ -213,6 +216,7 @@ plugin=org.kde.plasma.volume
 PreloadWeight=100
 
 [Containments][37][Applets][45][Configuration][General]
+currentTab=streams
 migrated=true
 
 [Containments][37][Applets][46]
@@ -228,14 +232,14 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][37][Applets][50][Configuration]
-PreloadWeight=81
+PreloadWeight=90
 
 [Containments][37][Applets][51]
 immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][37][Applets][51][Configuration]
-PreloadWeight=90
+PreloadWeight=100
 
 [Containments][37][Applets][52]
 immutability=1
@@ -285,6 +289,7 @@ DialogWidth=720
 
 [Containments][56][Applets][59][Configuration][General]
 launchers=applications:com.obsproject.Studio.desktop,preferred://browser,applications:discord.desktop,applications:org.telegram.desktop.desktop,applications:postman.desktop,applications:code.desktop,preferred://filemanager,applications:systemsettings.desktop
+unhideOnAttention=false
 
 [Containments][56][General]
 AppletOrder=59
