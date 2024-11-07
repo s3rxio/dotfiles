@@ -103,8 +103,19 @@ source $ZSH/oh-my-zsh.sh
 alias commit="better-commits"
 alias pwoff="shutdown now"
 
+HISTORY_IGNORE="(shutdown|reboot|pwoff)"
+
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 PATH=~/.console-ninja/.bin:$PATH
+export PATH=$PATH:~/.spoof-dpi/bin
+
+# pnpm
+export PNPM_HOME="/home/s3rxio/.local/share/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
