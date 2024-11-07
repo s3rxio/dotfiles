@@ -4,8 +4,20 @@ ordering=applications:org.kde.discover.desktop,applications:org.kde.dolphin.desk
 [Favorites-org.kde.plasma.kickoff.favorites.instance-128-global]
 ordering=applications:org.kde.discover.desktop,applications:org.kde.dolphin.desktop,applications:systemsettings.desktop,preferred://browser,applications:authy.desktop
 
+[Favorites-org.kde.plasma.kickoff.favorites.instance-155-7b64458c-5339-46f5-b228-7fbb1de2772c]
+ordering=applications:org.kde.dolphin.desktop,applications:systemsettings.desktop,preferred://browser,applications:modrinth-app.desktop
+
+[Favorites-org.kde.plasma.kickoff.favorites.instance-155-global]
+ordering=applications:org.kde.dolphin.desktop,applications:systemsettings.desktop,preferred://browser,applications:modrinth-app.desktop
+
 [Favorites-org.kde.plasma.kickoff.favorites.instance-3-70acd509-ea4c-4193-b27c-91a4d4c53b46]
 ordering=preferred://browser,org.kde.kontact.desktop,systemsettings.desktop,org.kde.dolphin.desktop,ktp-contactlist.desktop,org.kde.discover.desktop
 
 [Favorites-org.kde.plasma.kickoff.favorites.instance-3-global]
 ordering=preferred://browser,org.kde.kontact.desktop,systemsettings.desktop,org.kde.dolphin.desktop,ktp-contactlist.desktop,org.kde.discover.desktop
+
+[Favorites-org.kde.plasma.kickoff.favorites.instance-32-7b64458c-5339-46f5-b228-7fbb1de2772c]
+ordering=applications:org.kde.dolphin.desktop,applications:systemsettings.desktop,preferred://browser,applications:modrinth-app.desktop
+
+[Favorites-org.kde.plasma.kickoff.favorites.instance-32-global]
+ordering=applications:org.kde.dolphin.desktop,applications:systemsettings.desktop,preferred://browser,applications:modrinth-app.desktop
