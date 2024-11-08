@@ -1,3 +1,7 @@
+[AlpsPS/2 ALPS DualPoint TouchPad]
+naturalScroll=true
+tapToClick=true
+
 [SYNA7DB5:01 06CB:7DB7 Touchpad]
 naturalScroll=true
 pointerAccelerationProfileAdaptive=false

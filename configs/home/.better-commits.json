@@ -79,7 +79,7 @@
     "commit_scope": {
         "enable": true,
         "custom_scope": true,
-        "initial_value": "custom",
+        "initial_value": "",
         "options": [
             {
                 "value": "app",
